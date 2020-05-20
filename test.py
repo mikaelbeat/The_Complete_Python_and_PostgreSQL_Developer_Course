@@ -14,6 +14,6 @@ print(marks_sum / marks_added)
 
 
 def print_data(data):
-    print(data["name"])
+    print({data["name"], data["marks"])
 
 print_data(data)
